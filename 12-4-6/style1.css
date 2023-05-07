@@ -1,0 +1,143 @@
+body{
+    background-image: radial-gradient(ellipse at center, #8dbbf788, #5a96ce);
+	 }
+
+
+
+	.container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.numeros {
+	display: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4px;
+	line-height: 1;
+}
+/*botao display 1-60*/
+.numero {
+	background-color: rgb(243, 243, 243);
+        color: rgb(0, 0, 0);
+		border-color: #5a96ce;
+       padding: 10px;
+        font-size: 1rem;
+        border-radius: 15px;
+        border-color: rgb(255, 255, 255);
+        margin-right: 5px;
+		margin-left: 5px;
+		width: 46px;
+		font-family: 'Signika Negative', sans-serif;
+		
+	}
+/*botao display gerar e limpar*/
+	.botaog {
+		background-color: rgb(243, 243, 243);
+			color: rgb(0, 0, 0);
+			border-color: #5a96ce;
+		   	padding: 10px;
+			font-size: 1rem;
+			border-radius: 15px;
+			border-color: rgb(255, 255, 255);
+			margin-right: 5px;
+			margin-left: 5px;
+			width:170px;
+			font-family: 'Signika Negative', sans-serif;
+			
+		}
+
+	.botaog:hover, .numero:hover {
+		background-color: #8dbbf788;
+	}
+
+
+.numero.selecionado {
+	background-color: rgb(112, 102, 252);
+	color: #fff;
+}
+
+.selecionados {
+	margin-bottom: 20px;
+}
+
+.numeros-selecionados {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	 }
+
+.numeros-selecionados .numero-selecionado {
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0);
+	color: #00ff0d;
+}
+
+.jogos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(255, 255, 255);
+}
+
+.jogo {
+	display: none;
+	align-items: center;
+	margin: 0 40px 40px;
+	padding: 30px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #4e69ff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	width: 360px;
+}
+
+.jogo .numero-jogo {
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+.botao-jogo{
+	display: inline-block;
+}
+
+/*primeiro display aonde esta os numeros 1 - 60*/
+.display1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 450px;
+	width: 420px;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: #343b427c;
+	border-style:ridge;
+	padding: auto;
+	border: 5%;
+	}
+	
+	
+	
+	
+	
+		/*texto*/	  
+	  h1, h2 {
+		font-family: 'Roboto', sans-serif;
+	  }
+	  
+	  .tttx {
+	
+		font-family: 'Signika Negative', sans-serif;
+		color: #ffffff;
+		text-align: left;
+
+	  }
+	
